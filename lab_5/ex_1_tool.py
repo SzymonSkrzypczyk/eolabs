@@ -304,7 +304,7 @@ class HyperspectralBrowser:
         x = self.data.wavelengths if self.data.wavelengths is not None else np.arange(self.data.nbands)
         with open(path, "w", newline="") as f:
             w = csv.writer(f)
-            w.writerow(["Band/Wavelength", "Value"])
+            w.writerow(["wavelength_nm", "value"])
             for xi, vi in zip(x, spec): w.writerow([xi, vi])
         self.stat_var.set(f"Exported to {os.path.basename(path)}")
 
