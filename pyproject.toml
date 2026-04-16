@@ -20,6 +20,7 @@ dependencies = [
     "scikit-image>=0.26.0",
     "scikit-learn>=1.8.0",
     "sentinelsat>=1.2.1",
+    "spectral>=0.24",
 ]
 
 [tool.uv.workspace]
