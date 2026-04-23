@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "curses",
     "ee>=0.2",
     "folium>=0.20.0",
     "geemap>=0.37.2",
